@@ -1,0 +1,121 @@
+*{box-sizing: border-box;
+  margin: 0;
+  font-family: arial,sans-serif;}
+
+nav{background-color: red;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	}
+
+nav a{color: white;
+	  text-decoration: none;
+	  text-shadow: 3px 3px 3px black;}
+
+nav a:hover {color: yellow;
+	  font-weight: bold;
+	  font-size: 70em;}
+
+#inicio{font-size: 30px;}
+
+header{background-image:url(https://www.ulatina.ac.cr/sites/default/files/inline-images/arquitectura-blog.jpeg);
+	   padding: 150px;
+	   background-repeat: no-repeat;
+	   background-size: cover;
+	   text-align: center;
+	   display: flex;
+	   justify-content: center;
+	   align-items: center;
+	   text-shadow: 3px 3px 3px red;}
+
+header h1{color: yellow;}
+header h2{color: white;}
+
+#servicios{background-color: palegoldenrod;}
+
+.titulo{padding: 10px;
+	text-align: center;
+	color: red;
+	font-style: italic;
+	text-shadow: 3px 3px 3px black;}
+
+#contenedor-servicios{padding: 10px;	
+	display: flex;
+	justify-content: space-around;}
+
+#contenedor-servicios h2{color: skyblue;}
+
+#izquierda,#derecha{width: 40%;}
+
+p{margin-bottom: 10px;}
+
+.obra{border: 2px solid red;
+	width: 26%;
+	margin-bottom:30px;
+	text-align: center;}
+
+.obra img{width: 100%;}
+
+#contenedor-obras{display: flex;
+	justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;}
+
+footer{background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 20px;}
+
+#contenedor-info{border-top: 2px solid white;
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;}
+
+#enlaces h2{font-weight: bold;}
+
+#contacte {padding: 10px;
+	 font-size: 40px;}
+
+#contacto form{background-color: lightgrey;
+	 border-radius: 10px;
+	 padding: 20px;}
+
+#contacto{padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;}
+
+#contacto input{width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid lightgrey;
+	font-size: 1.2em;}
+
+#contacto label{width: 20%;
+	display: block;
+  font-weight: bold;
+  color: brown;
+	font-size: 1.2em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   	  
+
+
+
+
+
+
+
